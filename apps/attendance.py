@@ -9,7 +9,7 @@ import pandas as pd
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 df = pd.read_csv(
-    "C:/Users/Charlotte/Documents/AttainmentSuite/data/attendance.csv")
+    "https://github.com/chrs-ptr-hntr/AttainmentSuite/blob/master/data/attendance.csv")
 
 df["ACORN"] = df["ACORN"].astype('str')
 
