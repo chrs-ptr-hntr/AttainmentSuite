@@ -1,0 +1,401 @@
+Year,SCN,School,Gender,ACORN,SIMD,ASN,Possible,Actual,Authorised,Unauthorised
+2019,44045,Viewlands Primary School,Female,3,5,Yes,100,45,47,8
+2019,38964,Longforgan Primary School,Male,4,2,Yes,100,67,33,0
+2019,58573,Abernethy Primary School,Female,1,1,No,100,65,29,6
+2019,79309,Viewlands Primary School,Male,1,3,No,100,57,39,4
+2019,99064,Abernethy Primary School,Female,4,5,No,100,99,1,0
+2019,94290,Inch View Primary School,Male,4,5,No,100,50,50,0
+2019,62958,Abernethy Primary School,Female,2,4,No,100,41,59,0
+2019,63234,Kinross Primary School,Male,5,2,No,100,79,17,4
+2019,94677,Abernethy Primary School,Female,1,4,Yes,100,80,10,10
+2019,59811,Viewlands Primary School,Female,4,2,No,100,55,39,6
+2019,71842,Kinross Primary School,Female,5,1,No,100,49,44,7
+2019,66857,Inch View Primary School,Male,5,3,No,100,96,0,4
+2019,87728,Longforgan Primary School,Male,4,1,No,100,50,49,1
+2019,68818,Longforgan Primary School,Female,5,4,Yes,100,55,38,7
+2019,56773,Kinross Primary School,Female,2,3,Yes,100,84,7,9
+2019,28741,Longforgan Primary School,Male,3,4,No,100,61,38,1
+2019,15402,Kinross Primary School,Female,4,1,No,100,77,23,0
+2019,72261,Inch View Primary School,Female,4,5,Yes,100,76,24,0
+2019,29813,Inch View Primary School,Male,1,4,Yes,100,47,48,5
+2019,94313,Viewlands Primary School,Female,1,2,No,100,67,31,2
+2019,36179,Kinross Primary School,Male,5,3,No,100,70,23,7
+2019,57311,Kinross Primary School,Female,2,3,No,100,72,26,2
+2019,58416,Inch View Primary School,Male,2,4,No,100,40,53,7
+2019,51777,Kinross Primary School,Male,4,5,Yes,100,94,4,2
+2019,33182,Viewlands Primary School,Male,2,5,Yes,100,91,0,9
+2019,64906,Viewlands Primary School,Female,1,2,Yes,100,100,0,0
+2019,44070,Abernethy Primary School,Female,2,2,No,100,57,42,1
+2019,69345,Abernethy Primary School,Female,2,1,Yes,100,48,51,1
+2019,56724,Viewlands Primary School,Male,3,5,Yes,100,61,29,10
+2019,39367,Viewlands Primary School,Male,1,3,No,100,57,35,8
+2019,15576,Longforgan Primary School,Female,1,5,Yes,100,74,25,1
+2019,15319,Kinross Primary School,Male,1,3,No,100,54,40,6
+2019,34695,Abernethy Primary School,Female,4,1,No,100,61,38,1
+2019,49890,Inch View Primary School,Female,2,1,Yes,100,66,33,1
+2019,86734,Kinross Primary School,Male,3,2,Yes,100,41,56,3
+2019,45197,Viewlands Primary School,Female,4,5,Yes,100,79,21,0
+2019,54677,Viewlands Primary School,Female,3,1,No,100,79,20,1
+2019,46871,Viewlands Primary School,Female,5,2,No,100,91,9,0
+2019,70117,Inch View Primary School,Female,5,5,No,100,84,13,3
+2019,99222,Viewlands Primary School,Female,5,4,No,100,77,17,6
+2019,67084,Abernethy Primary School,Female,4,4,Yes,100,55,40,5
+2019,77701,Abernethy Primary School,Male,5,5,No,100,56,41,3
+2019,55725,Inch View Primary School,Female,5,3,Yes,100,60,33,7
+2019,32014,Kinross Primary School,Male,5,5,No,100,50,46,4
+2019,59888,Longforgan Primary School,Male,2,2,No,100,40,57,3
+2019,74452,Viewlands Primary School,Female,1,2,Yes,100,95,5,0
+2019,23306,Inch View Primary School,Male,3,3,Yes,100,87,8,5
+2019,89882,Abernethy Primary School,Female,5,1,Yes,100,63,35,2
+2019,83562,Kinross Primary School,Female,2,4,No,100,89,3,8
+2019,47849,Viewlands Primary School,Male,4,1,No,100,73,25,2
+2019,71377,Inch View Primary School,Male,1,4,Yes,100,70,27,3
+2019,11506,Longforgan Primary School,Male,4,3,No,100,50,43,7
+2019,73277,Kinross Primary School,Male,4,2,No,100,57,43,0
+2019,73919,Inch View Primary School,Female,5,2,Yes,100,41,52,7
+2019,74487,Longforgan Primary School,Female,3,2,No,100,90,10,0
+2019,27843,Kinross Primary School,Male,2,1,Yes,100,96,2,2
+2019,98430,Viewlands Primary School,Female,3,1,No,100,94,3,3
+2019,82407,Longforgan Primary School,Male,2,1,No,100,40,51,9
+2019,46314,Inch View Primary School,Female,5,1,Yes,100,99,1,0
+2019,91490,Longforgan Primary School,Female,2,2,Yes,100,94,2,4
+2019,34341,Kinross Primary School,Female,4,5,No,100,77,13,10
+2019,27546,Viewlands Primary School,Male,4,3,Yes,100,65,33,2
+2019,40788,Kinross Primary School,Male,5,1,Yes,100,47,46,7
+2019,28675,Inch View Primary School,Male,3,5,Yes,100,50,42,8
+2019,90108,Inch View Primary School,Female,5,5,No,100,96,4,0
+2019,31625,Viewlands Primary School,Male,1,4,No,100,86,9,5
+2019,23791,Longforgan Primary School,Male,3,3,No,100,74,20,6
+2019,10519,Abernethy Primary School,Male,2,3,Yes,100,45,55,0
+2019,67898,Viewlands Primary School,Male,3,1,Yes,100,55,40,5
+2019,47894,Viewlands Primary School,Male,1,3,Yes,100,71,29,0
+2019,83794,Kinross Primary School,Female,4,1,Yes,100,62,30,8
+2019,72898,Viewlands Primary School,Male,1,5,No,100,58,34,8
+2019,73504,Abernethy Primary School,Male,1,1,Yes,100,82,15,3
+2019,11179,Viewlands Primary School,Male,3,4,No,100,67,27,6
+2019,51436,Inch View Primary School,Male,2,2,No,100,72,28,0
+2019,84476,Kinross Primary School,Male,2,4,Yes,100,93,3,4
+2019,11675,Longforgan Primary School,Male,4,4,Yes,100,88,6,6
+2019,84817,Inch View Primary School,Male,2,2,Yes,100,48,49,3
+2019,55493,Kinross Primary School,Female,2,2,Yes,100,95,4,1
+2019,13488,Kinross Primary School,Male,4,3,No,100,80,18,2
+2019,55629,Viewlands Primary School,Male,4,5,No,100,97,2,1
+2019,79977,Inch View Primary School,Male,1,3,No,100,81,16,3
+2019,94890,Longforgan Primary School,Male,2,2,No,100,96,3,1
+2019,91454,Abernethy Primary School,Female,2,2,Yes,100,50,45,5
+2019,58999,Viewlands Primary School,Female,3,4,No,100,52,39,9
+2019,77052,Abernethy Primary School,Male,3,4,No,100,54,40,6
+2019,45564,Kinross Primary School,Female,4,1,No,100,80,12,8
+2019,93591,Viewlands Primary School,Female,3,2,Yes,100,49,42,9
+2019,49748,Abernethy Primary School,Male,3,5,Yes,100,81,10,9
+2019,88749,Inch View Primary School,Female,3,3,Yes,100,41,54,5
+2019,72053,Longforgan Primary School,Female,3,2,No,100,73,19,8
+2019,37922,Viewlands Primary School,Female,3,3,Yes,100,69,27,4
+2019,64674,Kinross Primary School,Female,3,2,Yes,100,45,52,3
+2019,81069,Kinross Primary School,Female,1,3,Yes,100,49,47,4
+2019,27030,Kinross Primary School,Female,4,4,Yes,100,94,4,2
+2019,53615,Inch View Primary School,Female,2,4,No,100,62,31,7
+2019,95491,Viewlands Primary School,Male,4,1,Yes,100,84,14,2
+2019,46682,Inch View Primary School,Female,3,5,No,100,66,26,8
+2019,24737,Kinross Primary School,Female,5,2,No,100,68,30,2
+2019,96532,Longforgan Primary School,Female,1,5,No,100,77,14,9
+2018,44045,Viewlands Primary School,Female,3,5,Yes,100,54,41,5
+2018,38964,Longforgan Primary School,Male,4,2,No,100,87,12,1
+2018,58573,Abernethy Primary School,Female,1,1,No,100,77,19,4
+2018,79309,Viewlands Primary School,Male,1,3,No,100,68,31,1
+2018,99064,Abernethy Primary School,Female,4,5,Yes,100,98,0,2
+2018,94290,Inch View Primary School,Male,4,5,No,100,85,14,1
+2018,62958,Abernethy Primary School,Female,2,4,No,100,94,2,4
+2018,63234,Kinross Primary School,Male,5,2,Yes,100,76,21,3
+2018,94677,Abernethy Primary School,Female,1,4,Yes,100,68,32,0
+2018,59811,Viewlands Primary School,Female,4,2,No,100,78,17,5
+2018,71842,Kinross Primary School,Female,5,1,No,100,73,27,0
+2018,66857,Inch View Primary School,Male,5,3,No,100,72,25,3
+2018,87728,Longforgan Primary School,Male,4,1,Yes,100,83,16,1
+2018,68818,Longforgan Primary School,Female,5,4,Yes,100,54,46,0
+2018,56773,Kinross Primary School,Female,2,3,Yes,100,81,15,4
+2018,28741,Longforgan Primary School,Male,3,4,Yes,100,69,26,5
+2018,15402,Kinross Primary School,Female,4,1,Yes,100,53,45,2
+2018,72261,Inch View Primary School,Female,4,5,Yes,100,78,20,2
+2018,29813,Inch View Primary School,Male,1,4,Yes,100,68,29,3
+2018,94313,Viewlands Primary School,Female,1,2,No,100,62,38,0
+2018,36179,Kinross Primary School,Male,5,3,No,100,65,33,2
+2018,57311,Kinross Primary School,Female,2,3,Yes,100,55,43,2
+2018,58416,Inch View Primary School,Male,2,4,Yes,100,63,35,2
+2018,51777,Kinross Primary School,Male,4,5,No,100,81,19,0
+2018,33182,Viewlands Primary School,Male,2,5,Yes,100,68,31,1
+2018,64906,Viewlands Primary School,Female,1,2,Yes,100,84,14,2
+2018,44070,Abernethy Primary School,Female,2,2,No,100,95,5,0
+2018,69345,Abernethy Primary School,Female,2,1,Yes,100,83,15,2
+2018,56724,Viewlands Primary School,Male,3,5,No,100,57,38,5
+2018,39367,Viewlands Primary School,Male,1,3,No,100,80,16,4
+2018,15576,Longforgan Primary School,Female,1,5,No,100,76,21,3
+2018,15319,Kinross Primary School,Male,1,3,No,100,77,21,2
+2018,34695,Abernethy Primary School,Female,4,1,Yes,100,97,2,1
+2018,49890,Inch View Primary School,Female,2,1,No,100,56,41,3
+2018,86734,Kinross Primary School,Male,3,2,No,100,72,27,1
+2018,45197,Viewlands Primary School,Female,4,5,No,100,87,8,5
+2018,54677,Viewlands Primary School,Female,3,1,Yes,100,76,19,5
+2018,46871,Viewlands Primary School,Female,5,2,No,100,73,26,1
+2018,70117,Inch View Primary School,Female,5,5,Yes,100,62,35,3
+2018,99222,Viewlands Primary School,Female,5,4,Yes,100,67,29,4
+2018,67084,Abernethy Primary School,Female,4,4,No,100,74,24,2
+2018,77701,Abernethy Primary School,Male,5,5,No,100,100,0,0
+2018,55725,Inch View Primary School,Female,5,3,Yes,100,75,25,0
+2018,32014,Kinross Primary School,Male,5,5,Yes,100,95,3,2
+2018,59888,Longforgan Primary School,Male,2,2,Yes,100,66,30,4
+2018,74452,Viewlands Primary School,Female,1,2,Yes,100,74,26,0
+2018,23306,Inch View Primary School,Male,3,3,Yes,100,75,20,5
+2018,89882,Abernethy Primary School,Female,5,1,No,100,75,21,4
+2018,83562,Kinross Primary School,Female,2,4,No,100,75,23,2
+2018,47849,Viewlands Primary School,Male,4,1,Yes,100,66,33,1
+2018,71377,Inch View Primary School,Male,1,4,Yes,100,68,29,3
+2018,11506,Longforgan Primary School,Male,4,3,Yes,100,74,22,4
+2018,73277,Kinross Primary School,Male,4,2,Yes,100,81,16,3
+2018,73919,Inch View Primary School,Female,5,2,Yes,100,76,24,0
+2018,74487,Longforgan Primary School,Female,3,2,Yes,100,51,47,2
+2018,27843,Kinross Primary School,Male,2,1,No,100,74,26,0
+2018,98430,Viewlands Primary School,Female,3,1,No,100,86,12,2
+2018,82407,Longforgan Primary School,Male,2,1,No,100,84,12,4
+2018,46314,Inch View Primary School,Female,5,1,Yes,100,91,8,1
+2018,91490,Longforgan Primary School,Female,2,2,Yes,100,99,0,1
+2018,34341,Kinross Primary School,Female,4,5,Yes,100,83,17,0
+2018,27546,Viewlands Primary School,Male,4,3,Yes,100,77,21,2
+2018,40788,Kinross Primary School,Male,5,1,No,100,80,18,2
+2018,28675,Inch View Primary School,Male,3,5,No,100,95,5,0
+2018,90108,Inch View Primary School,Female,5,5,Yes,100,89,9,2
+2018,31625,Viewlands Primary School,Male,1,4,Yes,100,57,40,3
+2018,23791,Longforgan Primary School,Male,3,3,Yes,100,89,8,3
+2018,10519,Abernethy Primary School,Male,2,3,Yes,100,52,44,4
+2018,67898,Viewlands Primary School,Male,3,1,Yes,100,75,20,5
+2018,47894,Viewlands Primary School,Male,1,3,Yes,100,51,45,4
+2018,83794,Kinross Primary School,Female,4,1,Yes,100,55,40,5
+2018,72898,Viewlands Primary School,Male,1,5,No,100,84,15,1
+2018,73504,Abernethy Primary School,Male,1,1,No,100,65,30,5
+2018,11179,Viewlands Primary School,Male,3,4,Yes,100,95,1,4
+2018,51436,Inch View Primary School,Male,2,2,No,100,81,18,1
+2018,84476,Kinross Primary School,Male,2,4,Yes,100,76,23,1
+2018,11675,Longforgan Primary School,Male,4,4,Yes,100,83,14,3
+2018,84817,Inch View Primary School,Male,2,2,No,100,74,25,1
+2018,55493,Kinross Primary School,Female,2,2,No,100,96,0,4
+2018,13488,Kinross Primary School,Male,4,3,Yes,100,69,28,3
+2018,55629,Viewlands Primary School,Male,4,5,No,100,63,37,0
+2018,79977,Inch View Primary School,Male,1,3,No,100,60,37,3
+2018,94890,Longforgan Primary School,Male,2,2,Yes,100,93,5,2
+2018,91454,Abernethy Primary School,Female,2,2,Yes,100,52,48,0
+2018,58999,Viewlands Primary School,Female,3,4,No,100,73,25,2
+2018,77052,Abernethy Primary School,Male,3,4,Yes,100,63,36,1
+2018,45564,Kinross Primary School,Female,4,1,No,100,80,19,1
+2018,93591,Viewlands Primary School,Female,3,2,Yes,100,99,1,0
+2018,49748,Abernethy Primary School,Male,3,5,Yes,100,55,42,3
+2018,88749,Inch View Primary School,Female,3,3,Yes,100,93,3,4
+2018,72053,Longforgan Primary School,Female,3,2,No,100,72,28,0
+2018,37922,Viewlands Primary School,Female,3,3,No,100,55,43,2
+2018,64674,Kinross Primary School,Female,3,2,No,100,57,42,1
+2018,81069,Kinross Primary School,Female,1,3,No,100,52,44,4
+2018,27030,Kinross Primary School,Female,4,4,Yes,100,91,7,2
+2018,53615,Inch View Primary School,Female,2,4,No,100,65,31,4
+2018,95491,Viewlands Primary School,Male,4,1,No,100,74,23,3
+2018,46682,Inch View Primary School,Female,3,5,No,100,84,11,5
+2018,24737,Kinross Primary School,Female,5,2,No,100,51,46,3
+2018,96532,Longforgan Primary School,Female,1,5,Yes,100,84,16,0
+2017,44045,Viewlands Primary School,Female,3,5,Yes,100,85,13,2
+2017,38964,Longforgan Primary School,Male,4,2,No,100,72,26,2
+2017,58573,Abernethy Primary School,Female,1,1,Yes,100,78,20,2
+2017,79309,Viewlands Primary School,Male,1,3,Yes,100,96,1,3
+2017,99064,Abernethy Primary School,Female,4,5,No,100,99,0,1
+2017,94290,Inch View Primary School,Male,4,5,Yes,100,76,23,1
+2017,62958,Abernethy Primary School,Female,2,4,Yes,100,97,2,1
+2017,63234,Kinross Primary School,Male,5,2,Yes,100,81,16,3
+2017,94677,Abernethy Primary School,Female,1,4,No,100,72,26,2
+2017,59811,Viewlands Primary School,Female,4,2,No,100,85,12,3
+2017,71842,Kinross Primary School,Female,5,1,No,100,77,20,3
+2017,66857,Inch View Primary School,Male,5,3,Yes,100,96,1,3
+2017,87728,Longforgan Primary School,Male,4,1,Yes,100,91,8,1
+2017,68818,Longforgan Primary School,Female,5,4,Yes,100,87,10,3
+2017,56773,Kinross Primary School,Female,2,3,Yes,100,82,17,1
+2017,28741,Longforgan Primary School,Male,3,4,No,100,79,19,2
+2017,15402,Kinross Primary School,Female,4,1,No,100,73,25,2
+2017,72261,Inch View Primary School,Female,4,5,Yes,100,93,6,1
+2017,29813,Inch View Primary School,Male,1,4,Yes,100,87,11,2
+2017,94313,Viewlands Primary School,Female,1,2,Yes,100,75,23,2
+2017,36179,Kinross Primary School,Male,5,3,No,100,79,18,3
+2017,57311,Kinross Primary School,Female,2,3,Yes,100,70,27,3
+2017,58416,Inch View Primary School,Male,2,4,Yes,100,95,4,1
+2017,51777,Kinross Primary School,Male,4,5,Yes,100,72,27,1
+2017,33182,Viewlands Primary School,Male,2,5,No,100,82,15,3
+2017,64906,Viewlands Primary School,Female,1,2,Yes,100,79,20,1
+2017,44070,Abernethy Primary School,Female,2,2,Yes,100,73,24,3
+2017,69345,Abernethy Primary School,Female,2,1,Yes,100,78,21,1
+2017,56724,Viewlands Primary School,Male,3,5,No,100,94,4,2
+2017,39367,Viewlands Primary School,Male,1,3,Yes,100,88,9,3
+2017,15576,Longforgan Primary School,Female,1,5,Yes,100,74,24,2
+2017,15319,Kinross Primary School,Male,1,3,No,100,91,6,3
+2017,34695,Abernethy Primary School,Female,4,1,No,100,97,2,1
+2017,49890,Inch View Primary School,Female,2,1,No,100,97,1,2
+2017,86734,Kinross Primary School,Male,3,2,No,100,83,14,3
+2017,45197,Viewlands Primary School,Female,4,5,No,100,79,20,1
+2017,54677,Viewlands Primary School,Female,3,1,No,100,77,22,1
+2017,46871,Viewlands Primary School,Female,5,2,Yes,100,78,20,2
+2017,70117,Inch View Primary School,Female,5,5,No,100,72,27,1
+2017,99222,Viewlands Primary School,Female,5,4,Yes,100,96,3,1
+2017,67084,Abernethy Primary School,Female,4,4,No,100,94,4,2
+2017,77701,Abernethy Primary School,Male,5,5,Yes,100,93,5,2
+2017,55725,Inch View Primary School,Female,5,3,No,100,72,26,2
+2017,32014,Kinross Primary School,Male,5,5,No,100,82,15,3
+2017,59888,Longforgan Primary School,Male,2,2,Yes,100,89,8,3
+2017,74452,Viewlands Primary School,Female,1,2,No,100,82,17,1
+2017,23306,Inch View Primary School,Male,3,3,Yes,100,83,16,1
+2017,89882,Abernethy Primary School,Female,5,1,Yes,100,97,1,2
+2017,83562,Kinross Primary School,Female,2,4,Yes,100,83,16,1
+2017,47849,Viewlands Primary School,Male,4,1,No,100,88,10,2
+2017,71377,Inch View Primary School,Male,1,4,No,100,70,27,3
+2017,11506,Longforgan Primary School,Male,4,3,No,100,71,27,2
+2017,73277,Kinross Primary School,Male,4,2,Yes,100,94,3,3
+2017,73919,Inch View Primary School,Female,5,2,No,100,70,29,1
+2017,74487,Longforgan Primary School,Female,3,2,No,100,84,15,1
+2017,27843,Kinross Primary School,Male,2,1,Yes,100,85,12,3
+2017,98430,Viewlands Primary School,Female,3,1,Yes,100,90,9,1
+2017,82407,Longforgan Primary School,Male,2,1,Yes,100,93,4,3
+2017,46314,Inch View Primary School,Female,5,1,No,100,73,24,3
+2017,91490,Longforgan Primary School,Female,2,2,Yes,100,93,4,3
+2017,34341,Kinross Primary School,Female,4,5,No,100,76,23,1
+2017,27546,Viewlands Primary School,Male,4,3,Yes,100,86,12,2
+2017,40788,Kinross Primary School,Male,5,1,Yes,100,82,15,3
+2017,28675,Inch View Primary School,Male,3,5,Yes,100,90,9,1
+2017,90108,Inch View Primary School,Female,5,5,Yes,100,79,20,1
+2017,31625,Viewlands Primary School,Male,1,4,No,100,72,27,1
+2017,23791,Longforgan Primary School,Male,3,3,No,100,89,8,3
+2017,10519,Abernethy Primary School,Male,2,3,Yes,100,72,26,2
+2017,67898,Viewlands Primary School,Male,3,1,Yes,100,91,7,2
+2017,47894,Viewlands Primary School,Male,1,3,No,100,90,9,1
+2017,83794,Kinross Primary School,Female,4,1,No,100,81,17,2
+2017,72898,Viewlands Primary School,Male,1,5,Yes,100,73,24,3
+2017,73504,Abernethy Primary School,Male,1,1,Yes,100,73,25,2
+2017,11179,Viewlands Primary School,Male,3,4,Yes,100,77,21,2
+2017,51436,Inch View Primary School,Male,2,2,No,100,82,15,3
+2017,84476,Kinross Primary School,Male,2,4,Yes,100,97,0,3
+2017,11675,Longforgan Primary School,Male,4,4,Yes,100,88,11,1
+2017,84817,Inch View Primary School,Male,2,2,No,100,90,9,1
+2017,55493,Kinross Primary School,Female,2,2,Yes,100,74,25,1
+2017,13488,Kinross Primary School,Male,4,3,Yes,100,73,24,3
+2017,55629,Viewlands Primary School,Male,4,5,No,100,70,27,3
+2017,79977,Inch View Primary School,Male,1,3,Yes,100,87,11,2
+2017,94890,Longforgan Primary School,Male,2,2,No,100,98,1,1
+2017,91454,Abernethy Primary School,Female,2,2,No,100,75,22,3
+2017,58999,Viewlands Primary School,Female,3,4,No,100,90,8,2
+2017,77052,Abernethy Primary School,Male,3,4,Yes,100,76,23,1
+2017,45564,Kinross Primary School,Female,4,1,Yes,100,78,19,3
+2017,93591,Viewlands Primary School,Female,3,2,No,100,80,18,2
+2017,49748,Abernethy Primary School,Male,3,5,Yes,100,70,28,2
+2017,88749,Inch View Primary School,Female,3,3,No,100,91,6,3
+2017,72053,Longforgan Primary School,Female,3,2,Yes,100,70,27,3
+2017,37922,Viewlands Primary School,Female,3,3,No,100,75,23,2
+2017,64674,Kinross Primary School,Female,3,2,No,100,80,17,3
+2017,81069,Kinross Primary School,Female,1,3,Yes,100,72,26,2
+2017,27030,Kinross Primary School,Female,4,4,No,100,100,0,0
+2017,53615,Inch View Primary School,Female,2,4,No,100,74,24,2
+2017,95491,Viewlands Primary School,Male,4,1,Yes,100,96,2,2
+2017,46682,Inch View Primary School,Female,3,5,No,100,73,24,3
+2017,24737,Kinross Primary School,Female,5,2,Yes,100,78,19,3
+2017,96532,Longforgan Primary School,Female,1,5,Yes,100,79,19,2
+2017,44045,Viewlands Primary School,Female,3,5,No,100,81,16,3
+2017,38964,Longforgan Primary School,Male,4,2,No,100,83,16,1
+2017,58573,Abernethy Primary School,Female,1,1,No,100,70,29,1
+2017,79309,Viewlands Primary School,Male,1,3,Yes,100,85,13,2
+2017,99064,Abernethy Primary School,Female,4,5,No,100,77,21,2
+2017,94290,Inch View Primary School,Male,4,5,Yes,100,99,1,0
+2017,62958,Abernethy Primary School,Female,2,4,Yes,100,94,5,1
+2017,63234,Kinross Primary School,Male,5,2,No,100,88,9,3
+2017,94677,Abernethy Primary School,Female,1,4,No,100,93,4,3
+2017,59811,Viewlands Primary School,Female,4,2,No,100,81,17,2
+2017,71842,Kinross Primary School,Female,5,1,No,100,83,14,3
+2017,66857,Inch View Primary School,Male,5,3,No,100,78,19,3
+2017,87728,Longforgan Primary School,Male,4,1,No,100,92,6,2
+2017,68818,Longforgan Primary School,Female,5,4,Yes,100,76,21,3
+2017,56773,Kinross Primary School,Female,2,3,No,100,79,19,2
+2017,28741,Longforgan Primary School,Male,3,4,No,100,100,0,0
+2017,15402,Kinross Primary School,Female,4,1,Yes,100,93,4,3
+2017,72261,Inch View Primary School,Female,4,5,No,100,82,16,2
+2017,29813,Inch View Primary School,Male,1,4,Yes,100,78,21,1
+2017,94313,Viewlands Primary School,Female,1,2,Yes,100,97,2,1
+2017,36179,Kinross Primary School,Male,5,3,No,100,97,2,1
+2017,57311,Kinross Primary School,Female,2,3,Yes,100,73,26,1
+2017,58416,Inch View Primary School,Male,2,4,No,100,89,8,3
+2017,51777,Kinross Primary School,Male,4,5,Yes,100,72,26,2
+2017,33182,Viewlands Primary School,Male,2,5,Yes,100,92,7,1
+2017,64906,Viewlands Primary School,Female,1,2,No,100,82,15,3
+2017,44070,Abernethy Primary School,Female,2,2,Yes,100,75,22,3
+2017,69345,Abernethy Primary School,Female,2,1,No,100,82,15,3
+2017,56724,Viewlands Primary School,Male,3,5,No,100,73,25,2
+2017,39367,Viewlands Primary School,Male,1,3,Yes,100,86,12,2
+2017,15576,Longforgan Primary School,Female,1,5,Yes,100,85,12,3
+2017,15319,Kinross Primary School,Male,1,3,Yes,100,86,11,3
+2017,34695,Abernethy Primary School,Female,4,1,No,100,71,26,3
+2017,49890,Inch View Primary School,Female,2,1,Yes,100,73,24,3
+2017,86734,Kinross Primary School,Male,3,2,Yes,100,77,20,3
+2017,45197,Viewlands Primary School,Female,4,5,No,100,86,12,2
+2017,54677,Viewlands Primary School,Female,3,1,Yes,100,94,5,1
+2017,46871,Viewlands Primary School,Female,5,2,Yes,100,82,15,3
+2017,70117,Inch View Primary School,Female,5,5,No,100,74,25,1
+2017,99222,Viewlands Primary School,Female,5,4,Yes,100,93,4,3
+2017,67084,Abernethy Primary School,Female,4,4,Yes,100,81,16,3
+2017,77701,Abernethy Primary School,Male,5,5,No,100,74,23,3
+2017,55725,Inch View Primary School,Female,5,3,No,100,91,6,3
+2017,32014,Kinross Primary School,Male,5,5,No,100,70,27,3
+2017,59888,Longforgan Primary School,Male,2,2,Yes,100,100,0,0
+2017,74452,Viewlands Primary School,Female,1,2,No,100,81,16,3
+2017,23306,Inch View Primary School,Male,3,3,No,100,93,6,1
+2017,89882,Abernethy Primary School,Female,5,1,Yes,100,90,8,2
+2017,83562,Kinross Primary School,Female,2,4,Yes,100,74,23,3
+2017,47849,Viewlands Primary School,Male,4,1,Yes,100,95,2,3
+2017,71377,Inch View Primary School,Male,1,4,Yes,100,100,0,0
+2017,11506,Longforgan Primary School,Male,4,3,Yes,100,87,11,2
+2017,73277,Kinross Primary School,Male,4,2,No,100,100,0,0
+2017,73919,Inch View Primary School,Female,5,2,Yes,100,84,13,3
+2017,74487,Longforgan Primary School,Female,3,2,No,100,88,9,3
+2017,27843,Kinross Primary School,Male,2,1,Yes,100,80,17,3
+2017,98430,Viewlands Primary School,Female,3,1,No,100,87,12,1
+2017,82407,Longforgan Primary School,Male,2,1,No,100,72,27,1
+2017,46314,Inch View Primary School,Female,5,1,Yes,100,72,26,2
+2017,91490,Longforgan Primary School,Female,2,2,Yes,100,95,4,1
+2017,34341,Kinross Primary School,Female,4,5,Yes,100,81,16,3
+2017,27546,Viewlands Primary School,Male,4,3,Yes,100,95,4,1
+2017,40788,Kinross Primary School,Male,5,1,No,100,83,15,2
+2017,28675,Inch View Primary School,Male,3,5,Yes,100,75,22,3
+2017,90108,Inch View Primary School,Female,5,5,Yes,100,80,19,1
+2017,31625,Viewlands Primary School,Male,1,4,No,100,89,9,2
+2017,23791,Longforgan Primary School,Male,3,3,No,100,95,3,2
+2017,10519,Abernethy Primary School,Male,2,3,Yes,100,77,22,1
+2017,67898,Viewlands Primary School,Male,3,1,Yes,100,74,23,3
+2017,47894,Viewlands Primary School,Male,1,3,No,100,76,23,1
+2017,83794,Kinross Primary School,Female,4,1,Yes,100,91,8,1
+2017,72898,Viewlands Primary School,Male,1,5,Yes,100,72,27,1
+2017,73504,Abernethy Primary School,Male,1,1,No,100,75,23,2
+2017,11179,Viewlands Primary School,Male,3,4,Yes,100,83,16,1
+2017,51436,Inch View Primary School,Male,2,2,No,100,87,11,2
+2017,84476,Kinross Primary School,Male,2,4,Yes,100,84,15,1
+2017,11675,Longforgan Primary School,Male,4,4,No,100,79,20,1
+2017,84817,Inch View Primary School,Male,2,2,No,100,86,13,1
+2017,55493,Kinross Primary School,Female,2,2,No,100,81,18,1
+2017,13488,Kinross Primary School,Male,4,3,Yes,100,100,0,0
+2017,55629,Viewlands Primary School,Male,4,5,Yes,100,81,16,3
+2017,79977,Inch View Primary School,Male,1,3,No,100,74,25,1
+2017,94890,Longforgan Primary School,Male,2,2,No,100,78,20,2
+2017,91454,Abernethy Primary School,Female,2,2,No,100,80,18,2
+2017,58999,Viewlands Primary School,Female,3,4,Yes,100,75,24,1
+2017,77052,Abernethy Primary School,Male,3,4,Yes,100,79,18,3
+2017,45564,Kinross Primary School,Female,4,1,No,100,86,13,1
+2017,93591,Viewlands Primary School,Female,3,2,No,100,92,7,1
+2017,49748,Abernethy Primary School,Male,3,5,Yes,100,75,22,3
+2017,88749,Inch View Primary School,Female,3,3,Yes,100,93,5,2
+2017,72053,Longforgan Primary School,Female,3,2,Yes,100,85,12,3
+2017,37922,Viewlands Primary School,Female,3,3,No,100,91,8,1
+2017,64674,Kinross Primary School,Female,3,2,No,100,71,28,1
+2017,81069,Kinross Primary School,Female,1,3,Yes,100,76,22,2
+2017,27030,Kinross Primary School,Female,4,4,No,100,75,24,1
+2017,53615,Inch View Primary School,Female,2,4,Yes,100,91,6,3
+2017,95491,Viewlands Primary School,Male,4,1,Yes,100,86,13,1
+2017,46682,Inch View Primary School,Female,3,5,No,100,74,25,1
+2017,24737,Kinross Primary School,Female,5,2,No,100,97,2,1
+2017,96532,Longforgan Primary School,Female,1,5,Yes,100,91,8,1
