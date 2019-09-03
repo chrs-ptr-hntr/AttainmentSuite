@@ -17,7 +17,7 @@ app.layout = html.Div([
         
     dbc.Row(dbc.Col(dbc.Navbar(
                 
-            dbc.Col(html.Img(src="https://raw.githubusercontent.com/chrs-ptr-hntr/AttainmentSuite/master/assets/logo.jpg", height="50px")),
+            dbc.Col(html.Img(src="https://raw.githubusercontent.com/chrs-ptr-hntr/AttainmentSuite/master/assets/mainlogo.jpg", height="50px")),
                 
                color="dark",
                dark=True,
