@@ -3,7 +3,7 @@ Year,SCN,School,Gender,ACORN,SIMD,ASN,Possible,Actual,Authorised,Unauthorised
 2019,38964,Longforgan Primary School,Male,4,2,Yes,100,67,33,0
 2019,58573,Abernethy Primary School,Female,1,1,No,100,65,29,6
 2019,79309,Viewlands Primary School,Male,1,3,No,100,57,39,4
-2019,99064,Abernethy Primary School,Female,4,5,No,100,99,1,0
+2019,99064,Logierait Primary School,Female,4,5,No,100,99,1,0
 2019,94290,Inch View Primary School,Male,4,5,No,100,50,50,0
 2019,62958,Abernethy Primary School,Female,2,4,No,100,41,59,0
 2019,63234,Kinross Primary School,Male,5,2,No,100,79,17,4
@@ -111,7 +111,7 @@ Year,SCN,School,Gender,ACORN,SIMD,ASN,Possible,Actual,Authorised,Unauthorised
 2018,59811,Viewlands Primary School,Female,4,2,No,100,78,17,5
 2018,71842,Kinross Primary School,Female,5,1,No,100,73,27,0
 2018,66857,Inch View Primary School,Male,5,3,No,100,72,25,3
-2018,87728,Longforgan Primary School,Male,4,1,Yes,100,83,16,1
+2018,87728,Logierait Primary School,Male,4,1,Yes,100,83,16,1
 2018,68818,Longforgan Primary School,Female,5,4,Yes,100,54,46,0
 2018,56773,Kinross Primary School,Female,2,3,Yes,100,81,15,4
 2018,28741,Longforgan Primary School,Male,3,4,Yes,100,69,26,5
@@ -397,5 +397,5 @@ Year,SCN,School,Gender,ACORN,SIMD,ASN,Possible,Actual,Authorised,Unauthorised
 2017,53615,Inch View Primary School,Female,2,4,Yes,100,91,6,3
 2017,95491,Viewlands Primary School,Male,4,1,Yes,100,86,13,1
 2017,46682,Inch View Primary School,Female,3,5,No,100,74,25,1
-2017,24737,Kinross Primary School,Female,5,2,No,100,97,2,1
-2017,96532,Longforgan Primary School,Female,1,5,Yes,100,91,8,1
+2017,24737,Logierait Primary School,Female,5,2,No,100,97,2,1
+2017,96532,Logierait Primary School,Female,1,5,Yes,100,91,8,1
