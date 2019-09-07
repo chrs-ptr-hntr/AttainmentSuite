@@ -15,17 +15,24 @@ df["SIMD"] = df["SIMD"].astype('str')
 
 app.layout = html.Div([
         
-    dbc.Row(dbc.Col(dbc.Navbar(
+   dbc.Navbar(dbc.Row([
                 
             dbc.Col(html.Img(src="https://raw.githubusercontent.com/chrs-ptr-hntr/AttainmentSuite/master/assets/mainlogo.jpg", height="50px")),
+            
+            ]),
+            
                 
                color="dark",
                dark=True,
+               sticky=True
             
-            )
-    )),
+            ),
         
-    dbc.Row([dbc.Col([dcc.Dropdown(
+       dbc.Row([dbc.Col([
+                
+                html.H3("Filters", style={'align': 'center'}),
+                
+                dcc.Dropdown(
                 id='school_filter',
                 options=[{'label': i, 'value': i} for i in sorted(df["School"].unique())],
                 placeholder="Select School",
@@ -49,7 +56,9 @@ app.layout = html.Div([
                 placeholder="Select Gender",
                 multi = True)], width = 3),
             
-            dbc.Col(dcc.Graph(id='timeseriesgraph'))
+            dbc.Col(dcc.Graph(id='timeseriesgraph')),
+
+            dbc.Col(dcc.Graph(id='bubblegraph'))
 
              ]),
 
@@ -57,6 +66,7 @@ app.layout = html.Div([
 
 @app.callback(
     [Output('timeseriesgraph', 'figure'),
+     Output('bubblegraph', 'figure'),
      Output('acorn_filter', 'options'),
      Output('school_filter', 'options'),
      Output('gender_filter', 'options'),
@@ -70,29 +80,42 @@ def update_figure(selected_acorn, selected_school, selected_gender, selected_sim
     
     if not selected_acorn:
         dfa = df
+        dfp = df       
     else:
         dfa = df[df['ACORN'].isin(selected_acorn)]
-        
+        dfp = df[df['ACORN'].isin(selected_acorn)]
+                
     if not selected_school:
-        dfa = dfa
+        dfa = dfa      
     else:
         dfa = dfa[dfa['School'].isin(selected_school)]
         
     if not selected_gender:
         dfa = dfa
+        dfp = dfp        
     else:
         dfa = dfa[dfa['Gender'].isin(selected_gender)]
-        
+        dfp = dfp[dfp['Gender'].isin(selected_gender)]
+              
     if not selected_simd:
         dfa = dfa
+        dfp = dfp
     else:
         dfa = dfa[dfa['SIMD'].isin(selected_simd)]
+        dfp = dfp[dfp['SIMD'].isin(selected_simd)]
     
     dff = dfa.groupby("Year", as_index = False, sort = "ascending").sum()
+    dfpkc = dfp.groupby("Year", as_index = False, sort = "ascending").sum()
+    
+    aff = dfa.groupby("ACORN", as_index = False, sort = "ascending").sum()
+    afpkc = dfp.groupby("ACORN", as_index = False, sort = "ascending").sum()
     
     return [{
             'data': [
-                {'x': dff.Year, 'y':dff.Actual/dff.Possible, 'mode': 'lines'}
+                
+                {'x': dfpkc.Year, 'y':dfpkc.Actual/dfpkc.Possible, 'mode': 'lines', 'name': "PKC", 'marker':{'color':'darkgrey'}},
+                {'x': dff.Year, 'y':dff.Actual/dff.Possible, 'mode': 'lines', 'name': "Selection",'marker':{'color':'blue'}},
+                
             ], 
             'layout': {
                 'title': 'Attendance over time',
@@ -102,6 +125,23 @@ def update_figure(selected_acorn, selected_school, selected_gender, selected_sim
             }
         
         },
+           
+        {
+            'data': [
+                
+                {'x': afpkc.ACORN, 'y':afpkc.Actual/afpkc.Possible, 'mode': 'markers', 'sizemode':'area', 'name': "PKC", 'marker':{'color':'darkgrey'}},
+                {'x': aff.ACORN, 'y':aff.Actual/aff.Possible, 'mode': 'markers', 'sizemode':'area','name': "Selection",'marker':{'color':'blue'}},
+                
+            ], 
+            'layout': {
+                'title': 'Attendance by ACORN Category',
+                'yaxis': dict(range=[0,1],tickformat="%"),
+                'xaxis': {'type': 'category', 'categoryorder': 'category descending'},
+                'margin':{'pad':20}
+            }
+        
+        },    
+            
             
         [{'label': i, 'value': i} for i in sorted(dfa["ACORN"].unique(), reverse=True)],
         [{'label': i, 'value': i} for i in sorted(dfa["School"].unique())],
