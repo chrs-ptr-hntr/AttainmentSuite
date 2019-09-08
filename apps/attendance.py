@@ -25,12 +25,13 @@ app.layout = html.Div([
                     dbc.DropdownMenu(
                             children=[
                             dbc.DropdownMenuItem("More tools", header=True),
-                            dbc.DropdownMenuItem("SNSA", href="#"),
+                            dbc.DropdownMenuItem("Attendance", href="#"),
                             dbc.DropdownMenuItem("CfE Levels", href="#"),
                         ],
                         nav=True,
                         in_navbar=True,
                         label="More tools",
+                        toggle_style={'color':'white'}
         ), width=4, align='center'),
 
                 ]),
@@ -41,7 +42,7 @@ app.layout = html.Div([
         
        dbc.Row([dbc.Col([
                 
-                html.H3("Filters",style={'color': 'navyblue'}),
+                html.H4("Filters",style={'color': 'darkblue', 'text-align':'center'}),
                 
                 dcc.Dropdown(
                 id='school_filter',
@@ -71,11 +72,11 @@ app.layout = html.Div([
                 id='year_filter',
                 options=[{'label': i, 'value': i} for i in sorted(df["Year"].unique())],
                 placeholder="Select Year",
-                multi = True)], width = 3, style={'background-color':'Gainsboro'}),
+                multi = True)], width = 3),
             
-            dbc.Col(dcc.Graph(id='timeseriesgraph'),width = 4),
+            dbc.Col(dcc.Graph(id='timeseriesgraph'),width = 5,style={'background-color':'Gainsboro'}),
 
-            dbc.Col(dcc.Graph(id='bubblegraph'),width = 4)
+            dbc.Col(dcc.Graph(id='bubblegraph'),width = 4,style={'background-color':'Gainsboro'})
 
              ])
 
@@ -152,6 +153,9 @@ def update_figure(selected_acorn, selected_school, selected_gender, selected_sim
     aff = afa.groupby("ACORN", as_index = False, sort = "ascending").sum()
     afpkc = afp.groupby("ACORN", as_index = False, sort = "ascending").sum()
     
+    bubblesize = [len(afa[afa['ACORN'] == '5'])/len(afa),len(afa[afa['ACORN'] == '4'])/len(afa),len(afa[afa['ACORN'] == '3'])/len(afa),len(afa[afa['ACORN'] == '2'])/len(afa),len(afa[afa['ACORN'] == '1'])/len(afa)]
+    pkcbubblesize = [len(afp[afp['ACORN'] == '5'])/len(afp),len(afp[afp['ACORN'] == '4'])/len(afp),len(afp[afp['ACORN'] == '3'])/len(afp),len(afp[afp['ACORN'] == '2'])/len(afp),len(afp[afp['ACORN'] == '1'])/len(afp)]
+   
     return [{
             'data': [
                 
@@ -171,8 +175,8 @@ def update_figure(selected_acorn, selected_school, selected_gender, selected_sim
         {
             'data': [
                 
-                {'x': afpkc.ACORN, 'y':afpkc.Actual/afpkc.Possible, 'mode': 'markers', 'sizemode':'area', 'name': "PKC", 'marker':{'color':'darkgrey'}},
-                {'x': aff.ACORN, 'y':aff.Actual/aff.Possible, 'mode': 'markers', 'sizemode':'area','name': "Selection",'marker':{'color':'blue'}},
+                {'x': afpkc.ACORN, 'y':afpkc.Actual/afpkc.Possible, 'mode': 'markers','size':pkcbubblesize, 'name': "PKC", 'marker':{'color':'darkgrey'}},
+                {'x': aff.ACORN, 'y':aff.Actual/aff.Possible, 'mode': 'markers','size':bubblesize,'name': "Selection",'marker':{'color':'blue'}},
                 
             ], 
             'layout': {
