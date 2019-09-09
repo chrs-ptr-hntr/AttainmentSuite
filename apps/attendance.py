@@ -42,7 +42,7 @@ app.layout = html.Div([
         
        dbc.Row([dbc.Col([
                 
-                html.H4("Filters",style={'color': 'steelblue', 'text-align':'center'}),
+                html.H5("Filters",style={'color': 'steelblue', 'text-align':'center'}),
                 
                 dcc.Dropdown(
                 id='school_filter',
@@ -74,9 +74,9 @@ app.layout = html.Div([
                 placeholder="Select Year",
                 multi = True)], width = 3),
             
-            dbc.Col(dcc.Graph(id='timeseriesgraph'),width = 5),
+            dbc.Col(dcc.Graph(id='timeseriesgraph'),width = 4),
 
-            dbc.Col(dcc.Graph(id='bubblegraph'),width = 4)
+            dbc.Col(dcc.Graph(id='bubblegraph'),width = 5)
 
              ])
 
@@ -156,6 +156,8 @@ def update_figure(selected_acorn, selected_school, selected_gender, selected_sim
     bubblesize = [len(afa[afa['ACORN'] == '5'])/len(afa),len(afa[afa['ACORN'] == '4'])/len(afa),len(afa[afa['ACORN'] == '3'])/len(afa),len(afa[afa['ACORN'] == '2'])/len(afa),len(afa[afa['ACORN'] == '1'])/len(afa)]
     pkcbubblesize = [len(afp[afp['ACORN'] == '5'])/len(afp),len(afp[afp['ACORN'] == '4'])/len(afp),len(afp[afp['ACORN'] == '3'])/len(afp),len(afp[afp['ACORN'] == '2'])/len(afp),len(afp[afp['ACORN'] == '1'])/len(afp)]
     
+    bubblesize = [round(x*100) for x in bubblesize]
+    pkcbubblesize = [round(x*100) for x in pkcbubblesize]
     return [{
             'data': [
                 
@@ -176,14 +178,13 @@ def update_figure(selected_acorn, selected_school, selected_gender, selected_sim
             'data': [
                 
                 {'x': afpkc.ACORN, 'y':afpkc.Actual/afpkc.Possible, 'mode': 'markers','name': "PKC", 'marker':{'color':'darkgrey','size':pkcbubblesize, 'sizemode':'area','sizeref':2.*max(pkcbubblesize)/(40**2), 'sizemin':4}},
-                {'x': aff.ACORN, 'y':aff.Actual/aff.Possible, 'mode': 'markers', 'name': "Selection",'marker':{'color':'blue','size':bubblesize,'sizemode':'area','sizeref':2.*max(bubblesize)/(40**2),'sizemin':4}},
+                {'x': aff.ACORN, 'y':aff.Actual/aff.Possible, 'mode': 'markers', 'name': "Selection",'marker':{'color':'blue','size':bubblesize, 'sizemode':'area','sizeref':2.*max(bubblesize)/(40**2), 'sizemin':4}},
                 
             ], 
             'layout': {
                 'title': 'Attendance by ACORN Category',
                 'yaxis': dict(range=[0,1],tickformat="%"),
-                'xaxis': {'type': 'category', 'categoryorder': 'category descending'},
-                'margin':{'pad':20}
+                'xaxis': {'type': 'category', 'categoryorder': 'category descending'}
             }
         
         },    
