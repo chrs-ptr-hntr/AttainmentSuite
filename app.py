@@ -8,6 +8,8 @@ import pandas as pd
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+server = app.server
+
 df = pd.read_csv('https://raw.githubusercontent.com/chrs-ptr-hntr/AttainmentSuite/master/data/attendance.csv')
 
 df["ACORN"] = df["ACORN"].astype('str')
