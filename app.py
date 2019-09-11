@@ -74,7 +74,7 @@ app.layout = html.Div([
                 id='year_filter',
                 options=[{'label': i, 'value': i} for i in sorted(df["Year"].unique())],
                 placeholder="Select Year",
-                multi = True)], width = 3),
+                multi = True)], width=3),
             
             dbc.Col(dcc.Graph(id='timeseriesgraph'),width = 4),
 
@@ -104,50 +104,88 @@ def update_figure(selected_acorn, selected_school, selected_gender, selected_sim
         dfa = df
         dfp = df
         afa = df
-        afp = df
+        afp = df    
+        optSc = df
+        optG = df
+        optSi = df
+        optY = df
     else:
         dfa = df[df['ACORN'].isin(selected_acorn)]
         dfp = df[df['ACORN'].isin(selected_acorn)]
         afa = df
         afp = df
+        optSc = df[df['ACORN'].isin(selected_acorn)]
+        optG = df[df['ACORN'].isin(selected_acorn)]
+        optSi = df[df['ACORN'].isin(selected_acorn)]
+        optY = df[df['ACORN'].isin(selected_acorn)]
                 
     if not selected_school:
         dfa = dfa
         afa = afa
+        optA = df
+        optG = optG
+        optSi = optSi
+        optY = optY
     else:
         dfa = dfa[dfa['School'].isin(selected_school)]
         afa = afa[afa['School'].isin(selected_school)]   
-    
+        optA = df[df['School'].isin(selected_school)]
+        optG = optG[optG['School'].isin(selected_school)]
+        optSi = optSi[optSi['School'].isin(selected_school)]
+        optY = optY[optY['School'].isin(selected_school)]
+        
     if not selected_gender:
         dfa = dfa
         dfp = dfp  
         afa = afa
         afp = afp
-        
+        optA = optA
+        optSc = optSc
+        optSi = optSi
+        optY = optY
     else:
         dfa = dfa[dfa['Gender'].isin(selected_gender)]
         dfp = dfp[dfp['Gender'].isin(selected_gender)]
         afa = afa[afa['Gender'].isin(selected_gender)]
         afp = afp[afp['Gender'].isin(selected_gender)]       
-        
+        optA = optA[optA['Gender'].isin(selected_gender)]  
+        optSc = optSc[optSc['Gender'].isin(selected_gender)]  
+        optSi = optSi[optSi['Gender'].isin(selected_gender)]  
+        optY = optY[optY['Gender'].isin(selected_gender)]  
               
     if not selected_simd:
         dfa = dfa
         dfp = dfp
         afa = afa
         afp = afp
+        optA = optA
+        optSc = optSc
+        optG = optG
+        optY = optY
     else:
         dfa = dfa[dfa['SIMD'].isin(selected_simd)]
         dfp = dfp[dfp['SIMD'].isin(selected_simd)]
         afa = afa[afa['SIMD'].isin(selected_simd)]
         afp = afp[afp['SIMD'].isin(selected_simd)]
-        
+        optA = optA[optA['SIMD'].isin(selected_simd)]
+        optSc = optSc[optSc['SIMD'].isin(selected_simd)]
+        optG = optG[optG['SIMD'].isin(selected_simd)]
+        optY = optY[optY['SIMD'].isin(selected_simd)]
+    
     if not selected_year:
         afa = afa
         afp = afp
+        optA = optA
+        optSc = optSc
+        optG = optG
+        optSi = optSi
     else:
         afa = afa[afa['Year'].isin(selected_year)]
-        afp = afp[afp['Year'].isin(selected_year)] 
+        afp = afp[afp['Year'].isin(selected_year)]
+        optA = optA[optA['Year'].isin(selected_year)]
+        optSc = optSc[optSc['Year'].isin(selected_year)]
+        optG = optG[optG['Year'].isin(selected_year)]
+        optSi = optSi[optSi['Year'].isin(selected_year)]
     
     dff = dfa.groupby("Year", as_index = False, sort = "ascending").sum()
     dfpkc = dfp.groupby("Year", as_index = False, sort = "ascending").sum()
@@ -192,11 +230,11 @@ def update_figure(selected_acorn, selected_school, selected_gender, selected_sim
         },    
             
             
-        [{'label': i, 'value': i} for i in sorted(dfa["ACORN"].unique(), reverse=True)],
-        [{'label': i, 'value': i} for i in sorted(dfa["School"].unique())],
-        [{'label': i, 'value': i} for i in sorted(dfa["Gender"].unique())],
-        [{'label': i, 'value': i} for i in sorted(dfa["SIMD"].unique())],
-        [{'label': i, 'value': i} for i in sorted(afa["Year"].unique())]
+        [{'label': i, 'value': i} for i in sorted(optA["ACORN"].unique(), reverse=True)],
+        [{'label': i, 'value': i} for i in sorted(optSc["School"].unique())],
+        [{'label': i, 'value': i} for i in sorted(optG["Gender"].unique())],
+        [{'label': i, 'value': i} for i in sorted(optSi["SIMD"].unique())],
+        [{'label': i, 'value': i} for i in sorted(optY["Year"].unique())]
 ]
 
 
